@@ -35,21 +35,7 @@ Support Vector Machine (SVM): Implemented to handle class imbalance effectively 
 Model Evaluation:
 
 Used metrics like ROC-AUC score, hinge loss, and training speed to evaluate and compare models.
-🔍 How to Run the Project
-Install Required Libraries:
 
-bash
-Copy code
-pip install scikit-learn snapml matplotlib pandas numpy
-Download the Dataset:
-Download the dataset from Kaggle and place it in the project directory.
-
-Run the Python Script:
-Execute the Python script to preprocess the data, train the models, and evaluate their performance:
-
-bash
-Copy code
-python credit_card_fraud_detection.py
 📈 Results
 Training Speed: Snap ML outperformed scikit-learn, achieving a significant speed-up in model training.
 Model Performance:
@@ -58,16 +44,6 @@ Support Vector Machine: Effective in handling imbalanced datasets.
 📚 Learnings from the Project
 Handling imbalanced datasets using sampling techniques and balanced weights.
 Preprocessing data for better machine learning model performance.
-Comparing model training times and optimizing for speed using Snap ML.
-🌟 Future Enhancements
-Implement advanced techniques like ensemble learning (e.g., Random Forest, Gradient Boosting).
-Explore deep learning models for fraud detection.
-Integrate the system with real-time transaction monitoring frameworks.
-🤝 Contributing
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page for ideas or to open a new issue.
-
-📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
 🙌 Acknowledgments
 Special thanks to Coursera, IBM, and Kaggle for providing the resources and dataset for this project.
